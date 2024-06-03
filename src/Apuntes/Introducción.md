@@ -1,6 +1,7 @@
-##¿Qué es un patrón de diseño?
+#Qué es un patrón de diseño:
+
 - Pasos para resolver un problema
-- Las soluciones més efectivas son las que se consideran patrones de diseño
+- Las soluciones más efectivas son las que se consideran patrones de diseño.
 - Hay tres grupos principales:
 
   1. **PATRONES CREACIONALES:** Se centran en resolver problemas acerca de cómo crear instancias de clases de nuestra aplicación. ¿Cómo creamos las entidades?¿Cómo instanciamos los objetos?
@@ -10,9 +11,9 @@
      Están relacionados con la comunicación entre objetos.
 
 - Elementos de un patrón de diseño:
-  1. Nombre de patrón: una o dos palabras, muy descriptivos.
-  2. Problema que describe: A veces el problema incluye requisitos que deben cumplirse antes de aplicar un patrón.
-  3. Solución: Describe los elementos , sus relaciones,como se diseñan.
-  4. Consecuencias: Pros y contras de aplicar un patrón. Hay que evaluarlo antes de utilizar un patrón.
+  1. **Nombre de patrón:** una o dos palabras, muy descriptivos.
+  2. **Problema que describe:** A veces el problema incluye requisitos que deben cumplirse antes de aplicar un patrón.
+  3. **Solución:** Describe los elementos, sus relaciones, cómo se diseñan.
+  4. **Consecuencias:** Pros y contras de aplicar un patrón. Hay que evaluarlo antes de utilizar un patrón.
 
 - **Antipatrones**: Es un patrón de diseño que nos va a llevar a una mala solución del problema.
