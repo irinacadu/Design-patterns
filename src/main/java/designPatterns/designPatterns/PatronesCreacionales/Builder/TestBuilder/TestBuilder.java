@@ -8,7 +8,6 @@ public class TestBuilder {
                 .name("irina")
                 .type("magician")
                 .build();
-
         System.out.println(enemy);
 
     }

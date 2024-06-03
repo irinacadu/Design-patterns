@@ -21,10 +21,12 @@
    - Al hacerlo a mano tenemos que duplicar los atributos y eso es un inconveniente.
    - Para poder realizar el builder, en esta clase duplicada modificaremos los setters. En vez de que no devuelvan nada podemos hacer que devuelvan lo que queramos y además tratar los datos de manera que especifiquemos que es lo que van a hacer.
    - Pero tenemos una opción que, al seleccionar generar setters podemos elegir en *Template" la opción "Builder".
-   - Tendremos que añadir un método estático a la clase Enemy para poder general el builder y eñ método build() para poder construir el objeto.
+   - Tendremos que añadir un [método estático][estatico-builder] a la clase Enemy para poder general el builder y eñ método [build()][enemy-build] para poder construir el objeto.
    
 [factory]: https://github.com/irinacadu/Design-patterns/blob/73362ef36d6aa5a3577b24e57c6f4393fe48172f/src/main/java/designPatterns/designPatterns/PatronesComportamiento/GeneralEntities/Magician.java#L4
 [factory-method]: https://github.com/irinacadu/Design-patterns/blob/73362ef36d6aa5a3577b24e57c6f4393fe48172f/src/main/java/designPatterns/designPatterns/PatronesComportamiento/FactoryMethod/EntitiesFactoryMethod/MagicianFactoryMethodClass.java#L7
 [abstract-factory]: https://github.com/irinacadu/Design-patterns/blob/10c02af821bf4648d7f22e31db4937170cabc671/src/main/java/designPatterns/designPatterns/PatronesComportamiento/AbstractFactory/MagicianAbstractFactory.java#L10
-[builder]:
+[builder]:https://github.com/irinacadu/Design-patterns/blob/f1e3824bd479d5ac8b33c0f9503a6ce877c97f84/src/main/java/designPatterns/designPatterns/PatronesCreacionales/Builder/EnemyBuilder.java#L3
+[estatico-builder]: https://github.com/irinacadu/Design-patterns/blob/f1e3824bd479d5ac8b33c0f9503a6ce877c97f84/src/main/java/designPatterns/designPatterns/PatronesCreacionales/Builder/Enemy.java#L66
+[enemy-build]:https://github.com/irinacadu/Design-patterns/blob/f1e3824bd479d5ac8b33c0f9503a6ce877c97f84/src/main/java/designPatterns/designPatterns/PatronesCreacionales/Builder/EnemyBuilder.java#L61
    
