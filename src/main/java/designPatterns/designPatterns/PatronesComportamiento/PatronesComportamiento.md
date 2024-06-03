@@ -10,11 +10,11 @@
    
 3. **[ABSTRACT FACTORY][abstract-factory]**
    - Hay una clase padre y muchas clases derivadas. 
-   - Cuando además de muchas instancias hay una familia es decir, cada uno de los objetos tiene además sus propias características.
-   - En este Ejemplo tenemos Armas y armaduras que serían familias que a la vez van asociadas a los objetos Mago o Guerrero.
- 
+   - Cuando además de muchas instancias hay una familia es decir, cada uno de los objetos tiene el mismo padre pero además tiene sus propias características.
+   - Por ejemplo tenemos la familia Mago y la familia Guerrero. Ambos implementan la interfaz Enemy, además ambos tienen armaduras y armas pero cada uno tiene unas
+   necesidades distintas. Por eso utilizamos clase abstractas para que cada uno pueda tener la funcionalidad que se requiere.
    
 [factory]: https://github.com/irinacadu/Design-patterns/blob/73362ef36d6aa5a3577b24e57c6f4393fe48172f/src/main/java/designPatterns/designPatterns/PatronesComportamiento/GeneralEntities/Magician.java#L4
 [factory-method]: https://github.com/irinacadu/Design-patterns/blob/73362ef36d6aa5a3577b24e57c6f4393fe48172f/src/main/java/designPatterns/designPatterns/PatronesComportamiento/FactoryMethod/EntitiesFactoryMethod/MagicianFactoryMethodClass.java#L7
-[abstract-factory]:
+[abstract-factory]: https://github.com/irinacadu/Design-patterns/blob/10c02af821bf4648d7f22e31db4937170cabc671/src/main/java/designPatterns/designPatterns/PatronesComportamiento/AbstractFactory/MagicianAbstractFactory.java#L10
    
