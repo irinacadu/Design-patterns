@@ -1,8 +1,13 @@
 package designPatterns.designPatterns.PatronesComportamiento.FactoryMethod.EntitiesFactoryMethod;
 
-public class MagicianFactoryMethod implements EnemyFactoryMethod {
+import designPatterns.designPatterns.PatronesComportamiento.FactoryMethod.AbstractFactoryMethod.EnemyFactoryMethodAbstract;
+import designPatterns.designPatterns.PatronesComportamiento.GeneralEntities.Enemy;
+import designPatterns.designPatterns.PatronesComportamiento.GeneralEntities.Magician;
+
+public class MagicianFactoryMethod extends EnemyFactoryMethodAbstract {
     @Override
-    public void attack() {
-        System.out.println("Magician attack!!");
+    public Enemy createEnemy() {
+        return new Magician();
     }
+
 }

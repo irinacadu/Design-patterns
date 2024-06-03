@@ -1,10 +1,13 @@
 package designPatterns.designPatterns.PatronesComportamiento.FactoryMethod.EntitiesFactoryMethod;
 
-import designPatterns.designPatterns.PatronesComportamiento.Factory.EntitiesFactory.EnemyFactory;
+import designPatterns.designPatterns.PatronesComportamiento.FactoryMethod.AbstractFactoryMethod.EnemyFactoryMethodAbstract;
+import designPatterns.designPatterns.PatronesComportamiento.GeneralEntities.Enemy;
+import designPatterns.designPatterns.PatronesComportamiento.GeneralEntities.Warrior;
 
-public class WarriorFactoryMethod implements EnemyFactoryMethod {
+public class WarriorFactoryMethod extends EnemyFactoryMethodAbstract {
+
     @Override
-    public void attack() {
-        System.out.println("Warrior attack!!");
+    public Enemy createEnemy() {
+        return new Warrior();
     }
 }

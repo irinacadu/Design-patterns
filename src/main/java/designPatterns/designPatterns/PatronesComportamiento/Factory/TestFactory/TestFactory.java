@@ -1,14 +1,14 @@
 package designPatterns.designPatterns.PatronesComportamiento.Factory.TestFactory;
 
 
-import designPatterns.designPatterns.PatronesComportamiento.Factory.EntitiesFactory.EnemyFactory;
-import designPatterns.designPatterns.PatronesComportamiento.Factory.ServicesFactory.EnemyFactoryService;
+import designPatterns.designPatterns.PatronesComportamiento.Factory.InterfaceFactory.EnemyFactoryService;
+import designPatterns.designPatterns.PatronesComportamiento.GeneralEntities.Enemy;
 
 public class TestFactory {
     public static void main(String[] args) {
         EnemyFactoryService enemyFactoryService = new EnemyFactoryService();
-        EnemyFactory warrior = enemyFactoryService.createEnemy("warrior");
-        EnemyFactory magician = enemyFactoryService.createEnemy("magician");
+        Enemy warrior = enemyFactoryService.createEnemy("warrior");
+        Enemy magician = enemyFactoryService.createEnemy("magician");
 
         warrior.attack();
         magician.attack();
