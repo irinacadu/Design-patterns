@@ -26,7 +26,8 @@
 5. **[PROTOTYPE][prototype]**
    - Lo utilizamos para hacer copias de un objeto de manera rápida y eficiente.
    - Para poder realizar copias de un objeto sin que afecte al objeto origen tenemos que implementar el método[ *clone()*]
-   - Una de las características es que la entidad a clonar será abstracta y que esta entidad tendrá un [constructor] que se pasa a si mismo.
+   - Una de las características es que la entidad a clonar será abstracta y que esta entidad tendrá un [constructor] [constructor-prototype] que se pasa a sí mismo.
+   - Los atributos de la clase padre deben ser protected para que los hijos puedan acceder a ellos.
 
 [factory]: https://github.com/irinacadu/Design-patterns/blob/73362ef36d6aa5a3577b24e57c6f4393fe48172f/src/main/java/designPatterns/designPatterns/PatronesComportamiento/GeneralEntities/Magician.java#L4
 [factory-method]: https://github.com/irinacadu/Design-patterns/blob/73362ef36d6aa5a3577b24e57c6f4393fe48172f/src/main/java/designPatterns/designPatterns/PatronesComportamiento/FactoryMethod/EntitiesFactoryMethod/MagicianFactoryMethodClass.java#L7
@@ -34,6 +35,7 @@
 [builder]:https://github.com/irinacadu/Design-patterns/blob/f1e3824bd479d5ac8b33c0f9503a6ce877c97f84/src/main/java/designPatterns/designPatterns/PatronesCreacionales/Builder/EnemyBuilder.java#L3
 [estatico-builder]: https://github.com/irinacadu/Design-patterns/blob/f1e3824bd479d5ac8b33c0f9503a6ce877c97f84/src/main/java/designPatterns/designPatterns/PatronesCreacionales/Builder/Enemy.java#L66
 [enemy-build]:https://github.com/irinacadu/Design-patterns/blob/f1e3824bd479d5ac8b33c0f9503a6ce877c97f84/src/main/java/designPatterns/designPatterns/PatronesCreacionales/Builder/EnemyBuilder.java#L61
-[metodo-clone]:
-[constructor-prototype]:
+[metodo-clone]:https://github.com/irinacadu/Design-patterns/blob/16c7d4aef5180879d3306ba16379169f6fbfb445/src/main/java/designPatterns/designPatterns/PatronesCreacionales/Prototype/Warrior.java#L24
+[prototype]: https://github.com/irinacadu/Design-patterns/blob/16c7d4aef5180879d3306ba16379169f6fbfb445/src/main/java/designPatterns/designPatterns/PatronesCreacionales/Prototype/Enemy.java#L3
+[constructor-prototype]: https://github.com/irinacadu/Design-patterns/blob/16c7d4aef5180879d3306ba16379169f6fbfb445/src/main/java/designPatterns/designPatterns/PatronesCreacionales/Prototype/Warrior.java#L11
    
