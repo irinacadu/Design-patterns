@@ -1,4 +1,4 @@
-## Patrones en el paquete
+## Patrones creacionales
 
 1. **[FACTORY][factory]**
     - Se utiliza en el caso en el que tenga una clase padre y muchas derivadas.
