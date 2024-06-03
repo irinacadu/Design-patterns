@@ -14,5 +14,5 @@
     - En la clase hija crearemos un constructor que modificará el valor del parámetro interfaz y creará un objeto de la clase intermedia.
 
 [adapterClass]:https://github.com/irinacadu/Design-patterns/blob/a41c496c2c05a5bd53a835632e5247096ec7bab7/src/main/java/designPatterns/designPatterns/PatronesEstructurales/Adapter/AdapterClasses/ZombieAdapter.java#L6
-
+[bridge]:https://github.com/irinacadu/Design-patterns/blob/14f008340d5ed474a5d78906e91190689eabaecc/src/main/java/designPatterns/designPatterns/PatronesEstructurales/Bridge/Entities/Enemy.java#L8
 [interfaz]:https://github.com/irinacadu/Design-patterns/blob/14f008340d5ed474a5d78906e91190689eabaecc/src/main/java/designPatterns/designPatterns/PatronesEstructurales/Bridge/Entities/Enemy.java#L8
