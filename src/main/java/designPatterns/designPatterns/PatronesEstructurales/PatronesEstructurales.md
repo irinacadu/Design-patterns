@@ -16,13 +16,14 @@
     - Este patrón se basa en las estructura de datos de árboles y las funciones [recursivas] ya que tanto los árboles como este tipo de función se llaman a si mismos.
     - Son estructuras que se contienen a si mismas
 
-4. **[DECORATOR]**
-    - Cuando trabajamos con combinaciones y permutaciones los números pueden llegar a ser enormes. Solucionar la combinación de clases sin necesidad de crear muchas clases distintas.
-    - Nos podemos imaginar una muñeca [matroska]
+4. **[DECORATOR][decorator]**
+    - Cuando trabajamos con combinaciones y permutaciones los números pueden llegar a ser enormes. Este patrón oluciona la combinación de clases sin necesidad de crear muchas clases distintas.
+    - Nos podemos imaginar una muñeca [matroska][matroska]
 
 [adapterClass]:https://github.com/irinacadu/Design-patterns/blob/a41c496c2c05a5bd53a835632e5247096ec7bab7/src/main/java/designPatterns/designPatterns/PatronesEstructurales/Adapter/AdapterClasses/ZombieAdapter.java#L6
 [bridge]:https://github.com/irinacadu/Design-patterns/blob/14f008340d5ed474a5d78906e91190689eabaecc/src/main/java/designPatterns/designPatterns/PatronesEstructurales/Bridge/Entities/Enemy.java#L8
 [interfaz]:https://github.com/irinacadu/Design-patterns/blob/14f008340d5ed474a5d78906e91190689eabaecc/src/main/java/designPatterns/designPatterns/PatronesEstructurales/Bridge/Entities/Enemy.java#L8
 [recursiva]:https://github.com/irinacadu/Design-patterns/blob/b7c5b3516cdf4f360b688e0fe8ddc44d1b6cc0ea/src/main/java/designPatterns/designPatterns/PatronesEstructurales/Composite/Container.java#L33
 [composite]:https://github.com/irinacadu/Design-patterns/blob/b7c5b3516cdf4f360b688e0fe8ddc44d1b6cc0ea/src/main/java/designPatterns/designPatterns/PatronesEstructurales/Composite/Entities/BaseItem.java#L10
-[matroska]:
+[matroska]:https://github.com/irinacadu/Design-patterns/blob/e2a77c59479490a653a0d165ce4c8279d49da488/src/main/java/designPatterns/designPatterns/PatronesEstructurales/Decorator/TestDecorator/TestDecorator.java#L22
+[decorator]:https://github.com/irinacadu/Design-patterns/blob/e2a77c59479490a653a0d165ce4c8279d49da488/src/main/java/designPatterns/designPatterns/PatronesEstructurales/Decorator/DecoratorClasses/MagicianEnemyDecorator.java#L5
