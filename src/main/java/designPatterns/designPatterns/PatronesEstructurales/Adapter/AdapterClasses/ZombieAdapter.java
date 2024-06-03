@@ -1,6 +1,9 @@
-package designPatterns.designPatterns.PatronesEstructurales.Adapter;
+package designPatterns.designPatterns.PatronesEstructurales.Adapter.AdapterClasses;
 
-public class ZombieAdapter implements Enemy{
+import designPatterns.designPatterns.PatronesEstructurales.Adapter.Entities.Zombie;
+import designPatterns.designPatterns.PatronesEstructurales.Adapter.Interfaces.Enemy;
+
+public class ZombieAdapter implements Enemy {
 
     private Zombie zombie;
 

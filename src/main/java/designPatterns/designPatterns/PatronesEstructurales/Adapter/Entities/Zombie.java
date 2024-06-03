@@ -1,4 +1,4 @@
-package designPatterns.designPatterns.PatronesEstructurales.Adapter;
+package designPatterns.designPatterns.PatronesEstructurales.Adapter.Entities;
 
 public class Zombie {
 
