@@ -16,8 +16,8 @@
 
 4. **[BUILDER][builder]**
    - Teniendo en cuenta que muchos atributos no tienen por qué ser obligatorios, deberíamos poder crear objetos sin necesidad de añadir valores a cada uno de ellos.
-   En vez de utilizar distintos constructores para establecer de cuantas maneras distintas se puede crear el objeto, utilizamos este patrón.
-   *En este proyecto lo estamos haciendo "a mano" para ver el funcionamiento, pero con lombok se puede utilizar la anotación @Builder.*
+     En vez de utilizar distintos constructores para establecer de cuantas maneras distintas se puede crear el objeto, utilizamos este patrón.
+    *En este proyecto lo estamos haciendo "a mano" para ver el funcionamiento, pero con lombok se puede utilizar la anotación @Builder.*
    - Al hacerlo a mano tenemos que duplicar los atributos y eso es un inconveniente.
    - Para poder realizar el builder, en esta clase duplicada modificaremos los setters. En vez de que no devuelvan nada podemos hacer que devuelvan lo que queramos y además tratar los datos de manera que especifiquemos que es lo que van a hacer.
    - Pero tenemos una opción que, al seleccionar generar setters podemos elegir en *Template" la opción "Builder".

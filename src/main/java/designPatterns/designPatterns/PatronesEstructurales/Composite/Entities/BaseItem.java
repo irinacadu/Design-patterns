@@ -7,7 +7,7 @@ public abstract class BaseItem {
     protected String name;
     protected int value;
 
-    protected List<BaseItem> items; // un item contiene elementos de su mismo tipo
+    protected List<BaseItem> items;
 
     public BaseItem(String name, int value) {
         this.name = name;
