@@ -5,7 +5,6 @@ import designPatterns.designPatterns.PatronesEstructurales.Bridge.WarriorFighter
 
 public class Warrior extends Enemy  {
     public Warrior() {
-
         setFighter(new WarriorFighterImpl());
     }
 
@@ -21,13 +20,13 @@ public class Warrior extends Enemy  {
 
 
     public void attack() {
-        System.out.println("Warrior attack!");
+        System.out.println("Warrior:");
         getFighter().attack();
     }
 
 
     public void protect() {
-        System.out.println("Warrior protect!!");
+        System.out.println("Warrior:");
         getFighter().protect();
     }
 
