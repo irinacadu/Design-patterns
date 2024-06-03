@@ -42,4 +42,4 @@
 [metodo-clone]:https://github.com/irinacadu/Design-patterns/blob/16c7d4aef5180879d3306ba16379169f6fbfb445/src/main/java/designPatterns/designPatterns/PatronesCreacionales/Prototype/Warrior.java#L24
 [prototype]: https://github.com/irinacadu/Design-patterns/blob/16c7d4aef5180879d3306ba16379169f6fbfb445/src/main/java/designPatterns/designPatterns/PatronesCreacionales/Prototype/Enemy.java#L3
 [constructor-prototype]: https://github.com/irinacadu/Design-patterns/blob/16c7d4aef5180879d3306ba16379169f6fbfb445/src/main/java/designPatterns/designPatterns/PatronesCreacionales/Prototype/Warrior.java#L11
-[singleton]
+[singleton]:https://github.com/irinacadu/Design-patterns/blob/d9edf1da7b92ea9bf8a09a99ebe5edebb38e82ce/src/main/java/designPatterns/designPatterns/PatronesCreacionales/Singleton/TestSingleton/TestSingleton.java#L14
