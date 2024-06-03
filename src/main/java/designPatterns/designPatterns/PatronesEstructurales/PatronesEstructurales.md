@@ -13,6 +13,10 @@
     - A partir de aquí crearemos una clase intermedia que si implemente la interfaz.
     - En la clase hija crearemos un constructor que modificará el valor del parámetro interfaz y creará un objeto de la clase intermedia.
 
+3. **[COMPOSITE]**
+    - Tiene mucho que ver con la estructura de datos. Este patrón se basa en las estructura de datos de árboles y las funciones recursivas ya que tanto los árboles como este tipo de función se llaman a si mismos.
+    - Son estructuras que se contienen a si mismas
+
 [adapterClass]:https://github.com/irinacadu/Design-patterns/blob/a41c496c2c05a5bd53a835632e5247096ec7bab7/src/main/java/designPatterns/designPatterns/PatronesEstructurales/Adapter/AdapterClasses/ZombieAdapter.java#L6
 [bridge]:https://github.com/irinacadu/Design-patterns/blob/14f008340d5ed474a5d78906e91190689eabaecc/src/main/java/designPatterns/designPatterns/PatronesEstructurales/Bridge/Entities/Enemy.java#L8
 [interfaz]:https://github.com/irinacadu/Design-patterns/blob/14f008340d5ed474a5d78906e91190689eabaecc/src/main/java/designPatterns/designPatterns/PatronesEstructurales/Bridge/Entities/Enemy.java#L8
