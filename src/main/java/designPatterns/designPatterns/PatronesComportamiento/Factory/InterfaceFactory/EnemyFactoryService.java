@@ -7,8 +7,8 @@ import designPatterns.designPatterns.PatronesComportamiento.GeneralEntities.Warr
 
 public class EnemyFactoryService {
 
-    public Enemy createEnemy(String enemy){
-        if(enemy.equals("warrior")) return new Warrior();
+    public Enemy createEnemy(String enemy) {
+        if (enemy.equals("warrior")) return new Warrior();
         if (enemy.equals("magician")) return new Magician();
         return null;
     }
