@@ -29,6 +29,10 @@
    - Una de las características es que la entidad a clonar será abstracta y que esta entidad tendrá un [constructor] [constructor-prototype] que se pasa a sí mismo.
    - Los atributos de la clase padre deben ser protected para que los hijos puedan acceder a ellos.
 
+6. **[SINGLETON][singleton]**
+   - Los constructores serán privados y tendrá un campo estático de su propia clase. Para acceder a la instancia única se accederá a ese campo.
+   - Muchas personas lo consideran un antipatrón.
+
 [factory]: https://github.com/irinacadu/Design-patterns/blob/73362ef36d6aa5a3577b24e57c6f4393fe48172f/src/main/java/designPatterns/designPatterns/PatronesComportamiento/GeneralEntities/Magician.java#L4
 [factory-method]: https://github.com/irinacadu/Design-patterns/blob/73362ef36d6aa5a3577b24e57c6f4393fe48172f/src/main/java/designPatterns/designPatterns/PatronesComportamiento/FactoryMethod/EntitiesFactoryMethod/MagicianFactoryMethodClass.java#L7
 [abstract-factory]: https://github.com/irinacadu/Design-patterns/blob/10c02af821bf4648d7f22e31db4937170cabc671/src/main/java/designPatterns/designPatterns/PatronesComportamiento/AbstractFactory/MagicianAbstractFactory.java#L10
@@ -38,4 +42,4 @@
 [metodo-clone]:https://github.com/irinacadu/Design-patterns/blob/16c7d4aef5180879d3306ba16379169f6fbfb445/src/main/java/designPatterns/designPatterns/PatronesCreacionales/Prototype/Warrior.java#L24
 [prototype]: https://github.com/irinacadu/Design-patterns/blob/16c7d4aef5180879d3306ba16379169f6fbfb445/src/main/java/designPatterns/designPatterns/PatronesCreacionales/Prototype/Enemy.java#L3
 [constructor-prototype]: https://github.com/irinacadu/Design-patterns/blob/16c7d4aef5180879d3306ba16379169f6fbfb445/src/main/java/designPatterns/designPatterns/PatronesCreacionales/Prototype/Warrior.java#L11
-   
+[singleton]
